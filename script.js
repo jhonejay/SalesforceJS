@@ -365,10 +365,46 @@
 // })
 // //console.log(checkIsSuccess('success'))
 
-fetch('https://api.github.com/users/karkranikhil').then(function(result){
-    console.log(result)
-})
+// fetch('https://api.github.com/users/karkranikhil').then(function(result){
+//     console.log(result)
+// })
 
 //END PROMISE
+
+/*****************************************************************************************************************************************/
+//MODULE IMPORTS AND EXPORTS
+//export
+
+//import minus, {PI2, add2} from './utils.js' - import by functions
+// import * as UTILS from './utils.js'  // - import all function inside JS
+// console.log(UTILS.PI2)
+// console.log(UTILS.add(5,3))
+// console.log(UTILS.minus(5,3))
+
+
+/*****************************************************************************************************************************************/
+//QUERY SELECTOR
+
+// let element = document.querySelector('div')
+// console.log(element)
+// element.style.color="red"
+
+// let elementAll = document.querySelectorAll('div')
+// console.log(elementAll)
+// Array.from(elementAll).forEach(function(item){
+//     item.style.color="green"
+// })
+
+/*****************************************************************************************************************************************/
+//EVENTS
+function firstFunction(x,y)
+{
+    if(x==y)
+    console.log("click success")
+    else
+    console.log("error")
+}
+
+
 
 /*****************************************************************************************************************************************/
