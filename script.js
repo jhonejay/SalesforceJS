@@ -256,21 +256,119 @@
 /*****************************************************************************************************************************************/
 
 //START Object/JSON Operations
-let obj={
-    name : "Salesforce",
-    age: 23,
-    dob:"23/10/1990"
-}
-//object.keys()
-console.log(Object.keys(obj))
+// let obj={
+//     name : "Salesforce",
+//     age: 23,
+//     dob:"23/10/1990"
+// }
+// //object.keys()
+// console.log(Object.keys(obj))
 
-//object.values()
-console.log(Object.values(obj))
+// //object.values()
+// console.log(Object.values(obj))
 
-//json.stringify
-console.log(JSON.stringify(obj))
+// //json.stringify
+// console.log(JSON.stringify(obj))
 
-//json.parse
-console.log(JSON.parse(JSON.stringify(obj)))
+// //json.parse
+// console.log(JSON.parse(JSON.stringify(obj)))
 
 //END Object/JSON Operations
+
+/*****************************************************************************************************************************************/
+
+//START ARRAY METHODS
+// let arr = [2,3,5,7,9,10]
+
+// //map()
+// //syntax
+// // arr.methodName(function(currentItem,index,actualarray)
+// // {
+// // })
+// let newArray = arr.map(function(currentItem, index, array)
+// {
+//     //console(index)
+//     console.log(`currentItem is ${currentItem} index ${index} array ${array}`)
+//     return currentItem*2
+// })
+// console.log(newArray)
+
+// //filter()
+// let filteredValues = arr.filter(function(currentItem, index,array){
+//     return currentItem > 5
+// })
+// console.log(filteredValues)
+
+// //every()
+// let age = [32,33,18,40]
+// let isAllAdult = age.every(function(currentItem){
+//     return currentItem >= 18
+// })
+// console.log(isAllAdult)
+
+// //some()
+// let ageList = [32,33,18,40]
+// let isAdult = ageList.some(function(currentItem){
+//     return currentItem > 32
+// })
+// console.log(isAdult)
+
+// //sort()
+// var names = ["test","qwe", "asd"]
+// console.log(names.sort())
+
+// //sorting of numbers
+// var points = [10,11,54,23,64,1]
+// let sortedvalue = points.sort(function(a,b){
+//     return a-b
+// })
+// console.log(sortedvalue)
+
+// //reduce methods
+// // array.reduce(fucntion(total, currentValue, index, array){
+
+// // }, initialValue)
+// let num = [12, 78, 30]
+// let sum = num.reduce(function(total, currentItem){
+//     return total+currentItem
+// },0)
+// console.log(sum)
+
+// //forEach
+// num.forEach(function(currentItem){
+//     console.log(currentItem)
+// })
+
+//END ARRAY METHODS
+
+/*****************************************************************************************************************************************/
+
+//START PROMISE
+//is an object that may produce a single value sometime in the future
+//are used to handle asynchronous operations is JS
+//pending()
+// function checkIsSuccess(data)
+// {
+//     return new Promise(function(resolve,reject){
+//         if(data== "success")
+//         {
+//             return resolve("successfully executed")
+//         }
+//         return reject("unsuccessfully executed")        
+//     })
+// }
+
+// checkIsSuccess('success').then(function(result){
+//     console.log(result)
+// }).catch(function(error){
+//     console.error(error)
+// })
+// //console.log(checkIsSuccess('success'))
+
+fetch('https://api.github.com/users/karkranikhil').then(function(result){
+    console.log(result)
+})
+
+//END PROMISE
+
+/*****************************************************************************************************************************************/
