@@ -1,0 +1,13 @@
+div{
+    color:red;
+}
+
+#username{
+    font-size: 30px;
+    color: green;
+}
+
+.para{
+    border: 2px solid white;
+    color: yellow;
+}
