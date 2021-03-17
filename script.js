@@ -397,14 +397,23 @@
 
 /*****************************************************************************************************************************************/
 //EVENTS
-function firstFunction(x,y)
+// function firstFunction()
+// {
+//     console.log("click success")
+// }
+
+// let btn = document.querySelector("button")
+// btn.addEventListener("click",firstFunction)
+
+document.addEventListener("mousemove",handler)
+function handler()
 {
-    if(x==y)
-    console.log("click success")
-    else
-    console.log("error")
+    document.querySelector(".demo").innerHTML = Math.random()
 }
 
-
+function removeHandler()
+{
+    document.removeEventListener("mousemove",handler)
+}
 
 /*****************************************************************************************************************************************/
