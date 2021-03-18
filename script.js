@@ -405,15 +405,98 @@
 // let btn = document.querySelector("button")
 // btn.addEventListener("click",firstFunction)
 
-document.addEventListener("mousemove",handler)
-function handler()
-{
-    document.querySelector(".demo").innerHTML = Math.random()
-}
+// document.addEventListener("mousemove",handler)
+// function handler()
+// {
+//     document.querySelector(".demo").innerHTML = Math.random()
+// }
 
-function removeHandler()
-{
-    document.removeEventListener("mousemove",handler)
-}
+// function removeHandler()
+// {
+//     document.removeEventListener("mousemove",handler)
+// }
+
+// document.addEventListener("Hello", function(data){
+//     console.log("hello was called and send", data.detail)
+// })
+
+// function callCustomMethod()
+// {
+//     let event = new CustomEvent("Hello",{
+//         detail: 
+//         {
+//             name: "jhonejay"
+//         }
+//     })
+//     document.dispatchEvent(event)
+// }
+
+/*****************************************************************************************************************************************/
+//ARROW FUNCTIONS
+
+// function abc()
+// {
+//     console.log("hello")
+// }
+// abc()
+
+// const abc = () => console.log("hello")
+// abc()
+
+// function sum (data)
+// {
+//     let sum = data + 10
+//     return sum
+    
+// }
+// console.log(sum(4))
+// const sum = (data) => 
+// {
+//     let sum = data + 10
+//     return sum
+// }
+// console.log(sum(5))
+
+// const qwe = (data1,data2) => data1+data2+10
+// console.log(qwe(5,5))
+// var arr = [1,2,3,4]
+// let newArr = arr.map((item) => item*2)
+// console.log(newArr)
+
+//problem solved by arrow function
+// let obj =
+// {
+//     name1: "jhonejay",
+//     getName: function() 
+//     {
+//         console.log(this.name1)
+//         const fullname = () =>
+//         {
+//             console.log("my full name is "+ this.name1 + " parba")
+//         }
+//         fullname()
+//     }
+// }
+// obj.getName()
+
+/*****************************************************************************************************************************************/
+//SetTimeout
+// let timerID = window.setTimeout(function()
+// {
+//     console.log("hello")
+// },2000)
+// console.log(timerID)
+// clearTimeout(timerID)
+
+
+// //SetInterval
+// let intervalID = window.setInterval(function(){
+//     console.log("hello")
+// },1000)
+// clearInterval(intervalID)
+
+
+
+
 
 /*****************************************************************************************************************************************/
