@@ -1,3 +1,4 @@
+//MAICO
 //START VARIABLES
 //var -- it can be updated and also can be re-declared || var keyword two types of scope global and function not block level scope
 //let -- it can be updated and also cannot be re-declared || let keyword support function and block level scope
@@ -447,7 +448,7 @@
 // {
 //     let sum = data + 10
 //     return sum
-    
+
 // }
 // console.log(sum(4))
 // const sum = (data) => 
