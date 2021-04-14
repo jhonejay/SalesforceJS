@@ -1,0 +1,5 @@
+1. install visual studio code
+2. install live server inside visual studio code --> purpose para if naay changes sa code kay no need na e refresh ang browser
+3. goto cdnjs.com and search lightning design-system and copy link tag then paste into html "head"
+4. https://lightningdesignsystem.com/
+5. download salesforce CLI - go to google.com
