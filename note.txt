@@ -3,3 +3,8 @@
 3. goto cdnjs.com and search lightning design-system and copy link tag then paste into html "head"
 4. https://lightningdesignsystem.com/
 5. download salesforce CLI - go to google.com
+6. goto terminal and to ensure that CLI is succefully installed just type "sfdx"
+7. and type also in terminal "sfdx plugins --core"
+8. goto extension and install "salesforce extension pack"
+9. login.salesforce.com
+10. To create salesforce project go to "view" and click "command pallete" and type "sdfx" and click "create project with manifest" and click "standard"
