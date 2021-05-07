@@ -7,4 +7,12 @@
 7. and type also in terminal "sfdx plugins --core"
 8. goto extension and install "salesforce extension pack"
 9. login.salesforce.com
-10. To create salesforce project go to "view" and click "command pallete" and type "sdfx" and click "create project with manifest" and click "standard"
+10. To create salesforce project go to "view" and click "command pallete" and type "sfdx" and click "create project with manifest" and click "standard"
+    or maybe just run this on your terminal "sfdx force:project:create -n "project name""   --- "-n stand for new"
+11. to authorize DEV HUB - sfdx force:auth:web:login -a salesforcetroop -d   --- "-a stand for allias" and "-d stand for default"
+12.  LEARNINGS --- DEV HUB - its the main salesforce org that you will use to create and manage your scratch orgs.
+                   SCRATCH ORG - its a source-driven and disposable deployment of salesforce code and metadata. Scratch Orgs are driven by source, 				 Sandboxes are copies of production (Note-Scratch orgs do not replace sandboxes)
+13. To create SCRATCH ORG - command terminal - sfdx force:org:create -a lwcScratchOrgOne -d 30 -f config/project-scratch-def.json -s
+                    OR goto command pallete and type "create scratch org" maybe its will ask the config and just locate to "config/project-scratch-		    def.json"
+14. To create components -- goto command pallete and type "create lightning web component"
+15. 
