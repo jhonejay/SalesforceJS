@@ -15,7 +15,9 @@
 13. To create SCRATCH ORG - command terminal - sfdx force:org:create -a lwcScratchOrgOne -d 30 -f config/project-scratch-def.json -s
                     OR goto command pallete and type "create scratch org" maybe its will ask the config and just locate to "config/project-scratch-		    def.json"
 14. To create components -- goto command pallete and type "create lightning web component"
-15. To open - "sfdx force:org:open"
+15. To open file into salesforce site- "sfdx force:org:open" (in terminal command)
 16. To push/deploy file  into salesforce site - "sfdx force:source:push" (in terminal command)
 17. goto google = "salesforce component library" (lightning library by salesforce - for HTML codes)
 18. goto google = "salesforce lightning design system" (lightning library by salesforce - for CSS codes)
+19.to create another project in the same file go to VIEW - COMMAND PALETTE - locate/type(SFDX: create lightning component) - ENTER file name and hit enter
+20.
